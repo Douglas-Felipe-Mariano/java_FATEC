@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class menoDeCadastro {
+public class menuDeCadastro {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);

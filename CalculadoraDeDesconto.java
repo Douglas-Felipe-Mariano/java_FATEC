@@ -17,7 +17,13 @@ public class CalculadoraDeDesconto{
 
         double precoFinal = preco -(preco * porcentagemDesconto);
 
-        System.out.printf("O valor R$%.2f com desconto de %.1f%% resulta em R$%.2f%n", preco, desconto, precoFinal);
+        System.out.prin("O valor R$%.2f com desconto de %.1f%% resulta em R$%.2f%n", preco, desconto, precoFinal);
+
+        if( porcentagemDesconto >= 0.20) {
+            System.out.print("Desconto generoso");
+        } else{
+            System.out.print("Desconto padrão");
+        }
 
         scanner.close();
 
